@@ -1,0 +1,87 @@
+1. Explain the difference between frontend, backend, and full-stack development with suitable 
+   real-world examples.
+Ans: Frontend development focuses on the user interface and user experience, using technologies like HTML, CSS, and JavaScript.
+     For example, the layout and design of an online store’s homepage.
+     Backend development handles server-side logic, databases, and APIs, using languages like Node.js, Python, or Java.
+     For example, processing orders or managing user accounts.
+     Full-stack development combines both frontend and backend skills, allowing a developer to build complete web applications,
+     such as a blogging platform.
+              
+
+2. Create a simple diagram showing how the client-server model works in web architecture.
+Ans:          Client (Browser)
+                     |
+                     v
+              HTTP Request
+                     |
+                     v
+              Web Server
+                     |
+              Processes Request
+                     |
+                     v
+              HTTP Response
+                     |
+                     v
+        Client (Browser displays webpage)
+
+
+3. Describe how a browser requests and displays a web page from a web server. 
+Ans: 1.User enters URL in the browser.
+     2.DNS lookup converts URL to IP address.
+     3.Browser sends an HTTP/HTTPS request to the web server.
+     4.Web server processes request and returns HTML, CSS, JS files.
+     5.Browser parses HTML to build the DOM, CSS for styling, JS for functionality.
+     6.Browser renders the web page visually for the user.
+
+
+4. Identify and list the tools required to set up a web development environment. Explain the purpose 
+   of each.
+
+Ans: VS Code -> Code editor for writing and testing web files
+Browser (Chrome) -> To view and test webpages
+Git & GitHub -> For version control and storing projects
+Node.js -> For running JavaScript outside the browser
+Live Server (VS Code Extension) -> To instantly preview HTML pages. 
+
+
+5. Explain what a web server is and give examples of commonly used servers. 
+Ans: A web server stores, processes, and delivers web pages to clients upon request.
+Examples: Apache, Nginx, Microsoft IIS, LiteSpeed.
+
+
+6. Define the roles of a frontend developer, backend developer, and database administrator in a project. 
+Ans:
+Frontend Developer: Codes the visual, interactive parts of the website using HTML, CSS, and JS. Focuses on user experience.
+Backend Developer: Writes server-side logic and APIs using languages like Python or Java or JS. Manages data storage and retrieval.
+Database Administrator (DBA): Manages, secures, and maintains the database system (e.g., MongoDB). Ensures data is stored efficiently and is available.
+
+
+8. Explain the difference between static and dynamic websites. Provide an example of each. 
+Ans:
+Static Site:- Same fixed content for every user. Built only with HTML and CSS.
+Example: A restaurant's brochure website with a fixed menu and contact details.
+
+Dynamic Site:- Content changes based on user interaction or data. Uses backend programming.
+Example: Facebook, where your news feed is unique to you.
+
+
+
+9. Research and list five web browsers. Explain how rendering engines differ between them. 
+Ans: 1.Google Chrome – Blink
+       → Fast, secure, and Chromium-based engine.
+
+       2.Mozilla Firefox – Gecko
+       → Open-source engine focused on web standards and customization.
+
+       3.Microsoft Edge – Blink
+       → Uses Chromium’s Blink for better performance and compatibility.
+
+       4.Apple Safari – WebKit
+       → Optimized for Apple devices, efficient and power-saving.
+
+       5.Opera – Blink (earlier Presto)
+       → Uses Blink for speed and modern web support.
+
+Difference:
+Rendering engines (Blink, Gecko, WebKit) interpret HTML, CSS, and JavaScript differently, causing slight variations in how web pages display and perform across browsers.
