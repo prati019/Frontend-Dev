@@ -11,7 +11,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-/* Each figure holds image + caption */
 figure {
     background: #fff;
     border-radius: 8px;
