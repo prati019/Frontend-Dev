@@ -1,6 +1,6 @@
 "use strict";
 
-// Q4: Debugging Mystery – Strict Mode catches undeclared assignment
+// Debugging Mystery – Strict Mode catches undeclared assignment
 
 // This will THROW an error in strict mode:
 // greeting = "Welcome";  // ReferenceError: greeting is not defined
